@@ -96,7 +96,7 @@ export default function Viewer3D() {
       <div className="infoButton">
         {/* <button onClick={tryFunc}>Click me</button>
         <p className="getCoordinate">{coordinate}</p> */}
-        <img src='/Label.png' />
+        <img src='/label.png' />
       </div>
     </div>
   )
