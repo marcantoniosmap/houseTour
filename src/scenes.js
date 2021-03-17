@@ -7,6 +7,7 @@ export const scenes = [
     {
         id: 'houseTunnel',
         source: {
+            preview: '/preview/tunnel.jpg',
             showControls: false,
             imageSource: '/panoPic/tunnel.jpg',
             hfov: getRelativeHfov(),
@@ -56,6 +57,7 @@ export const scenes = [
         id: 'bringspring',
         source: {
             showControls: false,
+            preview: '/preview/bringspring.jpg',
             imageSource: '/panoPic/bringspring.jpg',
             hfov: getRelativeHfov(),
             pitch: -3,
@@ -88,6 +90,7 @@ export const scenes = [
         id: '1stToilet',
         source: {
             showControls: false,
+            preview: '/preview/toiletlt1.jpg',
             imageSource: '/panoPic/toiletlt1.jpg',
             hfov: getRelativeHfov(),
             pitch: -3,
@@ -119,6 +122,7 @@ export const scenes = [
         id: 'washing',
         source: {
             showControls: false,
+            preview: '/preview/washing.jpg',
             imageSource: '/panoPic/washing.jpg',
             hfov: getRelativeHfov(),
             pitch: 0,
@@ -158,6 +162,7 @@ export const scenes = [
         id: 'upstrairs',
         source: {
             showControls: false,
+            preview: '/preview/stairlow.jpg',
             imageSource: '/panoPic/stairlow.jpg',
             hfov: getRelativeHfov(),
             pitch: -18,
@@ -208,6 +213,7 @@ export const scenes = [
         id: '2ndFloor',
         source: {
             showControls: false,
+            preview: '/preview/stairhigh.jpg',
             imageSource: '/panoPic/stairhigh.jpg',
             hfov: getRelativeHfov(),
             pitch: -13,
@@ -265,6 +271,7 @@ export const scenes = [
         id: '2ndFloorToilet',
         source: {
             showControls: false,
+            preview: '/preview/toiletlt2.jpg',
             imageSource: '/panoPic/toiletlt2.jpg',
             hfov: getRelativeHfov(),
             pitch: -13,
@@ -299,6 +306,7 @@ export const scenes = [
         id: 'marcBedroom',
         source: {
             showControls: false,
+            preview: '/preview/iyoBedroom.jpg',
             imageSource: '/panoPic/iyoBedroom.jpg',
             hfov: getRelativeHfov(),
             pitch: -13,

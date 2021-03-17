@@ -20,7 +20,7 @@ export default function Viewer3D() {
     return viewportWidth > 500 ? 120 : 50
   }
   const config = {
-    preview: '/preview.jpg',
+    preview: '/preview/livingroom.jpg',
     pitch: 0,
     yaw: 78,
     hfov: getRelativeHfov(),
