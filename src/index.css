@@ -16,3 +16,16 @@ code {
   bottom: 3%;
   left:3%
 }
+.tempImage{
+  height: 100%;
+  width: auto;
+
+}
+.tempImageContainer{
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

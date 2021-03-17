@@ -10,6 +10,7 @@ export const scenes = [
             preview: '/preview/livingroom.jpg',
             showControls: false,
             imageSource: '/panoPic/livingroom.jpg',
+            // imageSource: 'https://drive.google.com/thumbnail?id=1UrnKHYKmA2H__WJtW6Ir2DlCJ_rGrZro',
             hfov: getRelativeHfov(),
             pitch: 0,
             yaw: 78,
