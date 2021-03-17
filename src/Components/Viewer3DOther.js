@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Pannellum, pannellum } from 'pannellum-react'
 import { scenes } from '../scenesOther'
+import ReactLoading from 'react-loading'
 
 export default function Viewer3D() {
   const [coordinate, setCoordinate] = useState("")
@@ -34,6 +35,7 @@ export default function Viewer3D() {
           {isLoading &&
             <div className='tempImageContainer'
               style={{ backgroundImage: `url("${activeState.source.preview}")` }}>
+              <ReactLoading type={'spin'} color={'white'} height={'10%'} width={'10%'} />
             </div>}
 
           <Pannellum
