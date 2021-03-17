@@ -59,6 +59,7 @@ export default function Viewer3D() {
                   yaw={hotspot.yaw}
                   handleClick={(e) => changeScreen(hotspot.sceneId ? hotspot.sceneId : '')}
                   text={hotspot.text ? hotspot.text : ''}
+                  URL={hotspot.URL ? hotspot.URL : ''}
                 ></Pannellum.Hotspot>
               ))
             }
